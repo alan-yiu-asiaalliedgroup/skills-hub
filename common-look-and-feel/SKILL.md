@@ -102,10 +102,10 @@ Map existing colors by semantic role before editing. Replace hardcoded color val
 
 | Token | Hex | Use |
 |---|---:|---|
-| `primary` | `#006A63` | Primary actions, links, selected states |
+| `primary` | `#005A53` | Primary actions, links, selected states |
 | `primary-dark` | `#003531` | Hover states, dense navigation |
 | `primary-active` | `#001C19` | Pressed states |
-| `accent` | `#E6762D` | Decorative rules, large emphasis, charts |
+| `accent` | `#E88219` | Decorative rules, large emphasis, charts |
 | `accent-accessible` | `#B15315` | White-text interactive orange surfaces |
 | `accent-selected` | `#733208` | Selected warning or tag surfaces with white text |
 | `text` | `#333333` | Primary text |
@@ -116,9 +116,9 @@ Map existing colors by semantic role before editing. Replace hardcoded color val
 | `surface-disabled` | `#EAEAEA` | Disabled controls |
 | `border` | `#CECECE` | Dividers and control boundaries |
 | `table-header` | `#FFF2EA` | Warm table and list headers |
-| `focus` | `#006A63` | Focus indicators |
+| `focus` | `#005A53` | Focus indicators |
 | `danger` | `#DC3545` | Error and destructive states |
-| `success` | `#006A63` | Positive states, paired with a label or icon |
+| `success` | `#005A53` | Positive states, paired with a label |
 
 ## Usage Rules
 
@@ -132,9 +132,9 @@ Map existing colors by semantic role before editing. Replace hardcoded color val
 
 ## Contrast
 
-- White on `primary`: 6.48:1.
+- White on `primary`: 7.74:1.
 - White on `primary-dark`: 13.52:1.
-- White on `accent`: 3.00:1. Do not use for normal-sized text.
+- White on `accent`: 2.78:1. Do not use for normal-sized text.
 - White on `accent-accessible`: 5.10:1.
 - White on `accent-selected`: 9.59:1.
 - `text` on white: 12.63:1.
